@@ -18,7 +18,7 @@ class RegisterPage extends StatelessWidget {
     return Scaffold(
       resizeToAvoidBottomInset: false,
       backgroundColor: Colors.white,
-      appBar: makeAppBar(title: "املأ معلوماتك"),
+      appBar: makeAppBar(title: "Fill in your information"),
       body: SingleChildScrollView(
         child: Container(
           margin: const EdgeInsets.fromLTRB(20, 0, 20, 30),
